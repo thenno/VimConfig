@@ -25,6 +25,7 @@ Plugin 'git://github.com/altercation/vim-colors-solarized.git'
 Plugin 'git://github.com/tpope/vim-fugitive.git'
 Plugin 'SirVer/ultisnips'
 Plugin 'https://github.com/vim-perl/vim-perl.git'
+Plugin 'Lokaltog/vim-easymotion'
 
 
 " Colorscheme
@@ -40,6 +41,7 @@ set incsearch
 set ignorecase smartcase
 set hlsearch
 nmap <C-h> :nohl<CR>
+
 
 " Undo Settings
 set undofile
@@ -80,6 +82,16 @@ let g:UltiSnipsJumpBackwardTrigger="<c-tab>"
 
 " vim-perl
 let perl_fold = 0
+
+
+" vim-easymotion
+map / <plug>(easymotion-sn)
+omap / <plug>(easymotion-tn)
+map <Tab> <plug>(easymotion-next)
+map <S-Tab> <plug>(easymotion-prev)
+
+let g:EasyMotion_smartcase = 1
+let g:EasyMotion_keys = 'asdfjkl;weio'
 
 
 " Other Settings
