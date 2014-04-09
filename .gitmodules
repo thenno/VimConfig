@@ -1,0 +1,6 @@
+[submodule "/home/thenno/.vim/bundle/Vundle.vim"]
+	path = ~/.vim/bundle/Vundle.vim
+	url = https://github.com/gmarik/Vundle.vim.git
+[submodule "/home/thenno/.vim/bundle/vim-pathogen"]
+	path = /home/thenno/.vim/bundle/vim-pathogen
+	url = https://github.com/tpope/vim-pathogen.git

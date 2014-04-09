@@ -1,0 +1,6 @@
+*
+!.gitignore
+!backup
+!bundle
+!vimrc
+!undo
