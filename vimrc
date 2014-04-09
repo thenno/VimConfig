@@ -87,8 +87,6 @@ let perl_fold = 0
 " vim-easymotion
 map / <plug>(easymotion-sn)
 omap / <plug>(easymotion-tn)
-map <Tab> <plug>(easymotion-next)
-map <S-Tab> <plug>(easymotion-prev)
 
 let g:EasyMotion_smartcase = 1
 let g:EasyMotion_keys = 'asdfjkl;weio'
