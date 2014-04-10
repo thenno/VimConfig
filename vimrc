@@ -119,3 +119,8 @@ set smartindent
 set list listchars=tab:→\ ,trail:· "
 
 let python_highlight_all = 1
+
+" Locale settings
+if filereadable(expand('~/.vimrc.local'))
+    source ~/.vimrc.local
+endif
