@@ -1,9 +1,9 @@
 VimConfig
 =========
 
-    git clone --recursive git@github.com:thenno/VimConfig.git ~/.vim
+    git clone --recursive https://github.com/thenno/VimConfig.git ~/.vim
 
-    ln -s ln -s ~/.vim/vimrc ~/.vimrc
+    ln -s ~/.vim/vimrc ~/.vimrc
 
     cd ~/.vim/bundle/Vundle.vim
     git checkout master
