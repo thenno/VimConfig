@@ -16,6 +16,7 @@ syntax on
 
 
 " Plagins
+Plugin 'https://github.com/tpope/vim-pathogen.git'
 Plugin 'https://github.com/gmarik/Vundle.vim.git'
 Plugin 'https://github.com/klen/python-mode.git'
 Plugin 'https://github.com/scrooloose/nerdtree.git'
