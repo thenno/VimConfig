@@ -30,10 +30,10 @@ Plugin 'Lokaltog/vim-easymotion'
 
 " Colorscheme
 set t_Co=256
-let g:solarized_contrast = "high"
-let g:solarized_termcolors=256
+"let g:solarized_contrast = "high"
+"let g:solarized_termcolors=256
 set background=dark
-color solarized
+color xoria256-my
 
 
 " Search Settings
