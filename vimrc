@@ -48,6 +48,9 @@ nmap <C-h> :nohl<CR>
 set undofile
 set undodir=~/.vim/undo/
 
+" Filetypes Settings
+au BufRead,BufNewFile *.py set expandtab
+
 
 " python-mode
 let g:pymode_options = 0
@@ -111,11 +114,9 @@ set fileencodings=utf8,cp1251
 set tabstop=4
 set shiftwidth=4
 set smarttab
-set expandtab
 set softtabstop=4
 set autoindent
 set smartindent
-
 
 set list listchars=tab:→\ ,trail:· "
 
