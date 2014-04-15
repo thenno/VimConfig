@@ -16,6 +16,7 @@ syntax on
 
 
 " Plagins
+Plugin 'https://github.com/tpope/vim-pathogen.git'
 Plugin 'https://github.com/gmarik/Vundle.vim.git'
 Plugin 'https://github.com/klen/python-mode.git'
 Plugin 'https://github.com/scrooloose/nerdtree.git'
@@ -47,6 +48,9 @@ nmap <C-h> :nohl<CR>
 " Undo Settings
 set undofile
 set undodir=~/.vim/undo/
+
+" Filetypes Settings
+au BufRead,BufNewFile *.py set expandtab
 
 
 " python-mode
@@ -114,11 +118,9 @@ set fileencodings=utf8,cp1251
 set tabstop=4
 set shiftwidth=4
 set smarttab
-set expandtab
 set softtabstop=4
 set autoindent
 set smartindent
-
 
 set list listchars=tab:→\ ,trail:· "
 
