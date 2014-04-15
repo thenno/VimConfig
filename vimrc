@@ -26,6 +26,7 @@ Plugin 'git://github.com/tpope/vim-fugitive.git'
 Plugin 'SirVer/ultisnips'
 Plugin 'https://github.com/vim-perl/vim-perl.git'
 Plugin 'Lokaltog/vim-easymotion'
+Plugin 'plasticboy/vim-markdown'
 
 
 " Colorscheme
@@ -90,6 +91,9 @@ omap / <plug>(easymotion-tn)
 
 let g:EasyMotion_smartcase = 1
 let g:EasyMotion_keys = 'asdfjkl;weio'
+
+" vim-markdown
+let g:vim_markdown_folding_disabled=1
 
 
 " Other Settings
