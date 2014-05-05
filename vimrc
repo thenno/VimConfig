@@ -64,7 +64,7 @@ autocmd FileType python set completeopt-=preview "remove autocomplite preview
 
 let g:pymode_lint = 1
 let g:pymode_lint_checkers = ['pylint', 'pep8']
-let g:pymode_lint_ignore = "E501,E272,W0141,W0142,W0401,W0613,W0614,C0111,C0301,C0103,R0911,R0903,W0108,W0704,W0702,R0201,R0912,R0914,W0110,C0102"
+let g:pymode_lint_ignore = "E272,W0141,W0142,W0401,W0613,W0614,C0111,C0301,C0103,R0911,R0903,W0108,W0704,W0702,R0201,R0912,R0914,W0110,C0102"
 let g:pymode_lint_unmodified = 1
 
 let g:pymode_syntax = 1
