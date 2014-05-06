@@ -47,6 +47,7 @@ nmap <C-h> :nohl<CR>
 set undofile
 set undodir=~/.vim/undo/
 
+
 " Filetypes Settings
 au BufRead,BufNewFile *.py set expandtab colorcolumn=80
 
@@ -123,6 +124,7 @@ set smartindent
 set list listchars=tab:→\ ,trail:· "
 
 let python_highlight_all = 1
+
 
 " Locale settings
 if filereadable(expand('~/.vimrc.local'))

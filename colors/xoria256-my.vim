@@ -126,6 +126,8 @@ hi treePart       ctermfg=244  guifg=#808080
 hi treeDirSlash   ctermfg=244  guifg=#808080
 hi treeLink       ctermfg=182  guifg=#dfafdf
 
+highlight         ColorColumn  ctermbg=DarkGrey
+
 """ VimDebug {{{3
 " FIXME
 " you may want to set SignColumn highlight in your .vimrc
