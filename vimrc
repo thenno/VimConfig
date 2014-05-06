@@ -50,7 +50,7 @@ set undodir=~/.vim/undo/
 
 " Filetypes Settings
 au BufRead,BufNewFile *.py set expandtab
-au BufRead,BufNewFile *.py let &colorcolumn=join(range(81,999),",")
+au BufRead,BufNewFile *.py let &colorcolumn=join(range(80,999),",")
 
 
 " python-mode
