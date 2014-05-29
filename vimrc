@@ -106,6 +106,8 @@ let mapleader = "`"
 set nu
 set cursorline
 
+set nowrap
+
 set backupcopy=yes
 set backupdir=~/.vim/backup
 
