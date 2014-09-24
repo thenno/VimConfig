@@ -26,7 +26,6 @@ Plugin 'git://github.com/altercation/vim-colors-solarized.git'
 Plugin 'git://github.com/tpope/vim-fugitive.git'
 Plugin 'SirVer/ultisnips'
 Plugin 'https://github.com/vim-perl/vim-perl.git'
-Plugin 'Lokaltog/vim-easymotion'
 Plugin 'plasticboy/vim-markdown'
 
 
@@ -88,15 +87,6 @@ let g:UltiSnipsJumpBackwardTrigger="<c-tab>"
 " vim-perl
 let perl_fold = 0
 
-
-" vim-easymotion
-map / <plug>(easymotion-sn)
-omap / <plug>(easymotion-tn)
-map  n <Plug>(easymotion-next)
-map  N <Plug>(easymotion-prev)
-
-let g:EasyMotion_smartcase = 1
-let g:EasyMotion_keys = 'asdfjkl;weio'
 
 " vim-markdown
 let g:vim_markdown_folding_disabled=1
