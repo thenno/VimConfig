@@ -46,6 +46,9 @@ set smartindent
 
 set list listchars=tab:→\ ,trail:· "
 
+" python-mode options
+let g:pymode_options_colorcolumn = 0
+
 " Locale settings
 if filereadable(expand('~/.vimrc.local'))
     source ~/.vimrc.local
