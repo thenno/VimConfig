@@ -28,6 +28,8 @@ set undodir=~/.vim/undo/
 set nu
 set nowrap
 
+set backspace=indent,eol,start
+
 set backupcopy=yes
 set backupdir=~/.vim/backup
 
